@@ -1,0 +1,74 @@
+@charset "UTF-8";
+* {
+   margin: 0%;
+}
+body {
+    
+    background-color: rgb(228, 214, 196);
+    background-image: url(fundo-madeira.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    }
+
+h1 img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    background-attachment: scroll;
+    }
+
+div.container{
+    position: relative;
+    
+    
+}
+.img-fundo{
+    width: auto;
+}
+.img-frente{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+}
+
+    nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    }
+
+    nav img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+    
+}
+nav li#instagram {
+    margin-top: 50px;
+}
+
+nav li{
+    display: block;
+}
+nav li:hover{
+    transform: scale(1.2);
+    
+}
+.botao{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+    
+}
+
+
+
