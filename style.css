@@ -13,7 +13,7 @@ html, body {
     
     body{
         background: url(imagens/fundo-madeira.jpg) no-repeat top center;
-        background-size: cover;
+        background-size:cover;
         background-attachment: fixed;
     }
 
@@ -34,61 +34,23 @@ section#telefone{
 
 }
 
-h1 img {
-    width: 250px;
-    display: block;
-    margin: auto;
-    }
-
-div.container{
+#tela{
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 87px;
+    left: 550px;
+    height: 472px;
+    width: 268px;  
 }
-.img-fundo{
-    width: auto;
-}
-.img-frente{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 270px;
-}
-
-    nav{
-    display: flex;
-    justify-content: right;
-    list-style: none;
-    }
-
-    nav img{
-    border-radius: 50%;
+section#redessociais img{
     width: 50px;
-    height: 50px;
-    margin: 2px;
-    margin-right: 10px;
-    margin-top: 10px;
-   
-    
-}
-nav li#instagram {
-    margin-top: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: black 2px 2px 5px;
+} 
+section#redessociais{
+    text-align: right;
 }
 
-nav li{
-    display: block;
-}
-nav li:hover{
-    transform: scale(1.2);
-    
-}
-.botao{
-     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 270px;
-    
+section#redessociais img:hover{
+    transform: scale(1.1);
 }
