@@ -1,0 +1,28 @@
+@charset "UTF-8";
+ *{
+            margin: 0px;
+            padding: 0px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+
+       img{
+          width: 100vw;
+       }
+
+       a{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #5f2c01;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+       }
+
+       a:hover{
+        background-color: #8d501d;
+       }

@@ -36,14 +36,14 @@ section#telefone{
 
 #tela{
     position: relative;
-    top: 87px;
-    left: 550px;
+    top: 80px;
+    left: 22px;
     height: 472px;
-    width: 268px;  
+    width: 267px; 
 }
 section#redessociais img{
     width: 50px;
-    margin: 10px;
+    margin: 7px;
     border-radius: 50%;
     box-shadow: black 2px 2px 5px;
 } 
@@ -54,3 +54,38 @@ section#redessociais{
 section#redessociais img:hover{
     transform: scale(1.1);
 }
+
+#instagram{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 268px;
+    display: none;
+}
+
+#facebook{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 268px;
+    display: none;
+}
+#youtube{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 268px;
+    display: none;
+}
+#twitter{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 268px;
+    display: none;
+}
+
